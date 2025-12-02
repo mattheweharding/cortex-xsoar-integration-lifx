@@ -4,6 +4,7 @@ Smart Lighting Control & SOC Alert Visualization
 ![Banner](assets/banner.svg)
 
 This repository contains a fully custom, self-contained integration for controlling **LIFX smart lights** using **Cortex XSOAR or XSIAM**.  
+
 It enables automation playbooks to manipulate lighting effects, activate scenes, and visually signal SOC alerts—for example, **flashing red when WildFire detects a malicious file**.
 
 ---
@@ -18,49 +19,6 @@ It enables automation playbooks to manipulate lighting effects, activate scenes,
 - Fully self-contained Python (no CommonServerPython dependency)
 - Works on XSOAR 6, XSOAR 8, XSIAM
 - Custom connection test command
-
----
-
-```
-lifx-xsoar-integration/
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── integration/
-│   ├── LIFX.yml
-│   └── lifx_script.py
-├── examples/
-│   ├── list_lights.md
-│   ├── flash_on_severity.md
-│   ├── activate_scene.md
-│   └── test_connection.md
-├── playbooks/
-│   ├── wildfire_flash_example/
-│   │   ├── wildfire_flash_example.yml
-│   │   └── README.md
-│   └── reusable_lifx_flash/
-│       ├── lifx_flash_subplaybook.yml
-│       └── README.md
-├── docs/
-│   ├── installation.md
-│   ├── configuration.md
-│   ├── selectors_reference.md
-│   ├── troubleshooting.md
-│   └── api_reference.md
-├── assets/
-│   ├── banner.svg
-│   ├── lifx_logo.png
-│   ├── xsoar_logo.png
-│   └── screenshots/
-└── .github/
-    ├── ISSUE_TEMPLATE.md
-    ├── PULL_REQUEST_TEMPLATE.md
-    └── workflows/
-        ├── lint.yml
-        └── validate.yml
-```
-
----
 
 ## 🔧 Requirements
 
