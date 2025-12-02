@@ -1,0 +1,86 @@
+id: 7286c01e-93b0-498f-8c24-bf63bbabd598
+version: 4
+vcShouldKeepItemLegacyProdMachine: false
+name: LIFX - Over Cabinet Alert
+description: 'Run a ''pulse'' effect on Over Cabinet lights to red. '
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: dfb93f19-b172-4097-8668-e409db54425d
+    type: start
+    task:
+      id: dfb93f19-b172-4097-8668-e409db54425d
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+    separatecontext: false
+    continueonerrortype: ""
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+    isoversize: false
+    isautoswitchedtoquietmode: false
+  "1":
+    id: "1"
+    taskid: 91c6911b-168b-4339-8f22-36ede1a7fe76
+    type: regular
+    task:
+      id: 91c6911b-168b-4339-8f22-36ede1a7fe76
+      version: -1
+      name: Send LIFX Alert
+      description: 'Run a ''pulse'' effect on Over Cabinet lights to red. '
+      script: '|||lifx-pulse-effect'
+      type: regular
+      iscommand: true
+      brand: ""
+    scriptarguments:
+      color:
+        simple: red
+      cycles:
+        simple: "5"
+      selector:
+        simple: group:OverCabinet
+    separatecontext: false
+    continueonerrortype: ""
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 195
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 2
+    isoversize: false
+    isautoswitchedtoquietmode: false
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 240,
+        "width": 380,
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []
