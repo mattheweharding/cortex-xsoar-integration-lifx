@@ -1,7 +1,7 @@
 # LIFX Integration for Cortex XSOAR / XSIAM
 Smart Lighting Control & SOC Alert Visualization
 
-![Banner](assets/banner.svg)
+![Banner](assets/lifx.svg)
 
 This repository contains a fully custom, self-contained integration for controlling **LIFX smart lights** using **Cortex XSOAR or XSIAM**.  
 
