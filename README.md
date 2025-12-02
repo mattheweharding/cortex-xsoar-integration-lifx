@@ -113,27 +113,6 @@ Returns:
 | `location:` | `location:Kitchen` | Match location |
 | `id:` | `id:d073d5000001` | Match device ID |
 
----
-
-## ⚡ Example Playbook Snippet
-
-```yaml
-- id: flash_soc_lights
-  task:
-    id: flash_soc_lights
-    scriptName: LIFX
-    scriptarguments:
-      selector:
-        simple: "group:OverCabinet"
-      severity:
-        simple: "${incident.severity}"
-    type: regular
-    next: ""
-  taskid: flash_soc_lights
-```
-
----
-
 ## 🐞 Troubleshooting
 
 ### 401 Unauthorized
