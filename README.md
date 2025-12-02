@@ -1,140 +1,209 @@
-# LIFX Integration for Cortex XSOAR / XSIAM
-Smart Lighting Control & SOC Alert Visualization
+# 💡LIFX Integration for Cortex XSOAR / XSIAM
+![LIFXLogo](assets/lifx.svg)
 
-![Banner](assets/lifx.svg)
+Control your **LIFX smart lights** directly from Cortex XSOAR / XSIAM.
 
-This repository contains a fully custom, self-contained integration for controlling **LIFX smart lights** using **Cortex XSOAR or XSIAM**.  
-
-It enables automation playbooks to manipulate lighting effects, activate scenes, and visually signal SOC alerts—for example, **flashing red when WildFire detects a malicious file**.
+Use lighting as a security signal, automate visual alerts, set ambiance scenes, and deeply integrate LIFX into your workflows.
 
 ---
 
 ## 🚀 Features
 
-- Full LIFX Cloud API support
-- Power, color, brightness, and infrared control
-- Pulse & Breathe effects
-- Scene listing and activation
-- **Alert-based flashing** tied to SOC severity
-- Fully self-contained Python (no CommonServerPython dependency)
-- Works on XSOAR 6, XSOAR 8, XSIAM
-- Custom connection test command
+### 🎯 Core Capabilities
+- List and manage all LIFX lights
+- Set power, brightness, color, infrared, and fast mode
+- Toggle power with optional transitions
+- Trigger **breathe** and **pulse** effects
+- Activate LIFX **Scenes** (with human-readable timestamps)
+- Generate **visual alert flashes** for WildFire, XDR, SIEM, or XSIAM alerts
+- Built-in **Health Check** with:
+  - HTTP status
+  - Rate limit info
+  - Human-readable rate limit reset time
+  - Millisecond latency calculation
+- Highly readable markdown output for the XSOAR War Room
 
-## 🔧 Requirements
+---
 
-### LIFX Account
-- LIFX Cloud account
-- **Personal Access Token**: https://cloud.lifx.com/settings
+## 🔑 Obtaining Your LIFX API Token
 
-### XSOAR / XSIAM Environment
-- Python 3 integration
-- Recommended Docker image:
+1. Go to the LIFX Cloud:  
+   https://cloud.lifx.com
+2. Click **Settings → Personal access tokens**  
+   https://cloud.lifx.com/settings
+3. Click **Generate New Token**
+4. Name it something like `XSOAR-LIFX-Integration`
+5. Copy the token and paste it into the integration settings under:
+   **LIFX API Access Token**
+
+Your token becomes the header:
 
 ```
-demisto/python3:3.12.8.3296088
+Authorization: Bearer <token>
 ```
 
 ---
 
-## 🛠 Installation
+## 🎯 Selectors Reference
 
-### 1. Upload Integration
-1. Go to **Settings → Integrations**
-2. Click the **Upload Integration** button
-3. Select `LIFX.yml`
-4. Add a new instance
+LIFX selectors identify which lights a command targets.
 
-### 2. Configure Settings
+| Selector Example        | Meaning                                         |
+|-------------------------|-------------------------------------------------|
+| `all`                   | All lights                                      |
+| `group:OverCabinet`     | All lights in the OverCabinet group             |
+| `label:Desk Lamp`       | Light with the label "Desk Lamp"                |
+| `location:Office`       | All lights in the Office location               |
+| `id:d073d5431234`       | Specific bulb by LIFX ID                        |
 
-| Setting | Value |
-|--------|-------|
-| API Base URL | `https://api.lifx.com/v1` |
-| API Token | Your LIFX Token |
-| Docker Image | `demisto/python3:3.12.8.3296088` |
-| Run in Separate Container | Enabled |
+Selectors apply to all major commands:
 
-Click **Test** → Should return: `ok`.
+- lifx-list-lights  
+- lifx-set-state  
+- lifx-toggle-power  
+- lifx-breathe-effect  
+- lifx-pulse-effect  
+- lifx-alert-flash  
 
 ---
 
-## 🔍 Testing Connectivity
+## 📦 Commands Overview
+
+### `lifx-list-lights`
+Lists all lights for a selector.
+
+```
+!lifx-list-lights selector="group:OverCabinet"
+```
+
+Markdown table includes:
+
+- ID  
+- Label  
+- Group  
+- Location  
+- Hue/Saturation/Kelvin  
+- Brightness  
+
+Optional to display the raw JSON output:
+
+```
+verbose=true
+```
+
+---
+
+### `lifx-list-scenes`
+Lists all scenes with a clean table:
+
+| Name | UUID | Lights | Created At | Updated At |
+|------|------|--------|------------|------------|
+
+Dates are auto‑formatted as:
+```
+2025-01-02 20:25:00 (2 months ago)
+```
+
+Use:
+
+```
+!lifx-list-scenes
+```
+
+---
+
+### `lifx-set-state`
+Set power, color, brightness, or infrared levels.
+
+Examples:
+```
+!lifx-set-state selector="all" power="on"
+!lifx-set-state selector="label:Desk Lamp" color="blue"
+!lifx-set-state selector="group:OverCabinet" brightness="0.5"
+```
+
+---
+
+### `lifx-toggle-power`
+
+```
+!lifx-toggle-power selector="location:Office"
+```
+
+---
+
+### `lifx-breathe-effect`
+```
+!lifx-breathe-effect selector="all" color="red" period="1.5" cycles="5"
+```
+
+### `lifx-pulse-effect`
+```
+!lifx-pulse-effect selector="group:OverCabinet" color="yellow"
+```
+
+---
+
+### 🚨 `lifx-alert-flash` (perfect for WildFire)
+
+Triggers a severity-based flash:
+
+| Severity | Default Color | Default Cycles |
+|----------|----------------|----------------|
+| low      | green          | 3              |
+| medium   | yellow         | 5              |
+| high     | orange         | 7              |
+| critical | red            | 10             |
+
+Use:
+```
+!lifx-alert-flash selector="group:OverCabinet" severity="critical"
+```
+
+Override as needed:
+```
+cycles=20 color="purple"
+```
+
+---
+
+### `lifx-test-connection`
+Runs a connection test with a readable diagnostic table:
 
 ```
 !lifx-test-connection selector="all"
 ```
 
-Returns:
-- Base URL
-- SSL status
-- Number of detected lights
-- Error details if any
+---
+
+### `lifx-health-check`
+Shows API health, rate limits, and reset time:
+
+```
+!lifx-health-check
+```
+
+Example output:
+
+| Field          | Value                                   |
+|----------------|-----------------------------------------|
+| HTTP Status    | 200                                     |
+| Latency (ms)   | 87                                      |
+| Rate Limit     | 60                                      |
+| Rate Remaining | 35                                      |
+| Rate Reset     | 2025-01-02 20:25:00 (in 2 minutes)      |
+| OK             | True                                    |
 
 ---
 
-## 💡 Supported Commands
+## 🤝 Contributions
 
-### Listing Commands
-```
-!lifx-list-lights selector="all"
-!lifx-list-scenes
-```
-
-### State & Power Control
-```
-!lifx-set-state selector="label:DeskLamp" power="on" color="blue"
-!lifx-toggle-power selector="group:SOC"
-```
-
-### Effects
-```
-!lifx-breathe-effect selector="label:OverCabinet" color="cyan" period=1.2 cycles=3
-!lifx-pulse-effect selector="group:SOC" color="red" cycles=5
-```
-
-### Scene Activation
-```
-!lifx-activate-scene scene_uuid="abcd1234ef567890"
-```
-
-### Alert Flashing (Severity-Based)
-```
-!lifx-alert-flash selector="group:OverCabinet" severity="critical"
-```
-
----
-
-## 🔎 Selector Cheat Sheet
-
-| Selector | Example | Matches |
-|----------|---------|---------|
-| `all` | `all` | All lights |
-| `label:` | `label:DeskLamp` | Match by label |
-| `group:` | `group:OverCabinet` | Match group |
-| `location:` | `location:Kitchen` | Match location |
-| `id:` | `id:d073d5000001` | Match device ID |
-
-## 🐞 Troubleshooting
-
-### 401 Unauthorized
-- Regenerate token  
-- Remove whitespace  
-- Ensure correct LIFX account  
-
-### Lights Offline
-- Ensure stable 2.4 GHz WiFi  
-- Update firmware via mobile app  
+Pull requests are welcome!  
+Feel free to submit feature enhancements, bug fixes, or improvements to effects & formatting.
 
 ---
 
 ## 📜 License
-Released under the **MIT License**.
 
----
-
-## 🤝 Contributing
-Pull requests are welcome—feel free to submit improvements or enhancements.
-
----
-
-## 📬 Contact
-For issues or enhancements, open a GitHub Issue.
+MIT License  
+Copyright © 2025

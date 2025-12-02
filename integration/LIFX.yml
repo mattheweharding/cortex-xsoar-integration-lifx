@@ -6,15 +6,18 @@ name: LIFX
 display: LIFX
 category: Utilities
 image: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iMjE0LjUiPgogIDwhLS0gQmFzZWQgb24gc291cmNlIGF2YWlsYWJsZSBhdCBodHRwczovL3d3dy5saWZ4LmNvbS9wYWdlcy9wcmVzcyAtLT4KICA8cGF0aCBmaWxsPSIjNDA5IiBkPSJNMjY5LjgzMzMzIDM2LjQxNjY3aC0zNC45MTY2NnYxNDEuNDE2NjZIMzA5LjI1di0zNC45MTY2NmgtMzkuNXYtMTA2LjV6bTY0Ljc1IDE0MS4zMzMzM0gzNjkuNVYzNi40MTY2N2gtMzQuOTE2Njd6TTYwMCAzNi40MTY2N2gtNDEuNzVMNTQxIDc2bC0xNy4yNS0zOS41ODMzM2gtMTI4LjV2MTQxLjQxNjY2aDM0LjkxNjY3di00NC4xNjY2Nmg0NXYtMzMuMDgzMzRoLTQ1VjcxLjc1aDcxLjVsMjAuMjUgMzYuMjUtMzkgNjkuODMzMzNoMzlMNTQxIDE0MS45MTY2N2wxNi4zMzMzMyAzNS45MTY2Nmg0MS43NUw1NjAgMTA4ek0yMC4zMzMzMzMgODguODMzMzNjMC0xNy41IDYuNjY2NjY3LTM1IDE5LjkxNjY2Ny00OC40MTY2NiAxMy4yNS0xMy40MTY2NyAzMC42NjY2Ny0yMCA0OC4wODMzMy0yMCAxNy40MTY2NyAwIDM0LjgzMzM0IDYuNjY2NjYgNDguMDgzMzQgMjAgMTMuMjUgMTMuMzMzMzMgMTkuOTE2NjYgMzAuOTE2NjYgMTkuOTE2NjYgNDguNDE2NjYgMCAxNS40MTY2Ny01LjE2NjY2IDMwLjgzMzM0LTE1LjUgNDMuNDE2NjctNS45MTY2Ni0zLjgzMzMzLTEyLjI1LTctMTguNzUtOS40MTY2N0MxMTEuMTY2NjcgMTE4Ljc1IDk5Ljc1IDExNi43NSA4OC4yNSAxMTYuNzVjLTExLjUgMC0yMi45MTY2NyAyLTMzLjgzMzMzIDYuMDgzMzMtNi41IDIuNDE2NjctMTIuODMzMzQgNS41ODMzNC0xOC43NTAwMDMgOS40MTY2Ny0xMC4xNjY2NjctMTIuNTgzMzMtMTUuMzMzMzM0LTI4LTE1LjMzMzMzNC00My40MTY2N004OC4zMzMzMyAwQzY1Ljc1IDAgNDMuMDgzMzMgOC42NjY2NyAyNS44MzMzMzMgMjYgOC41ODMzMzMgNDMuMzMzMzMgMCA2Ni4wODMzMyAwIDg4LjkxNjY3YzAgMjAgNi42NjY2NjcgMzkuOTE2NjYgMTkuOTE2NjY3IDU2LjI1IDEuODMzMzMzIDIuMjUgMy44MzMzMzMgNC41IDUuOTE2NjY2IDYuNTgzMzNsNy41ODMzMzQgNy41Yy4xNjY2NjYtLjE2NjY3LjI1LS4yNS40MTY2NjYtLjQxNjY3QzM5IDE1My42NjY2NyA0NC44MzMzMyAxNDkuNDE2NjcgNTAuOTE2NjcgMTQ2YzExLjU4MzMzLTYuNDE2NjcgMjQuNS05LjY2NjY3IDM3LjUtOS42NjY2N3MyNS44MzMzMyAzLjI1IDM3LjUgOS42NjY2N0MxMzIgMTQ5LjQxNjY3IDEzNy43NSAxNTMuNjY2NjcgMTQzIDE1OC44MzMzM2wuNDE2NjcuNDE2NjcgNy41LTcuNTgzMzNjMi4wODMzMy0yLjA4MzM0IDQuMDgzMzMtNC4zMzMzNCA1LjkxNjY2LTYuNTgzMzQgMTMuMjUtMTYuMzMzMzMgMTkuOTE2NjctMzYuMjUgMTkuOTE2NjctNTYuMjUgMC0yMi43NS04LjU4MzMzLTQ1LjUtMjUuOTE2NjctNjIuODMzMzMtMTcuMjUtMTcuMzMzMzMtMzkuODMzMzMtMjYtNjIuNS0yNiIvPgogIDxwYXRoIGZpbGw9IiM0MDkiIGQ9Ik04OC4zMzMzMyAxNTYuNzVjLTE0LjY2NjY2IDAtMjkuNDE2NjYgNS42NjY2Ny00MC41ODMzMyAxNi45MTY2N0w2MC4yNSAxODYuMjVjNy43NS03LjgzMzMzIDE3LjkxNjY3LTExLjc1IDI4LjE2NjY3LTExLjc1IDEwLjE2NjY2IDAgMjAuMzMzMzMgMy45MTY2NyAyOC4xNjY2NiAxMS43NWwxMi41LTEyLjU4MzMzYy0xMS4zMzMzMy0xMS4yNS0yNi0xNi45MTY2Ny00MC43NS0xNi45MTY2N004OC4zMzMzMyAxOTQuMDgzMzNjLTUuMTY2NjYgMC0xMC40MTY2NiAyLTE0LjMzMzMzIDZMODguMzMzMzMgMjE0LjVsMTQuMzMzMzQtMTQuNDE2NjdjLTMuOTE2NjctNC05LjA4MzM0LTYtMTQuMzMzMzQtNiIvPgo8L3N2Zz4K
-description: |
-  Control LIFX smart lights via the LIFX HTTP Cloud API. Supports listing lights, setting state, power toggling, effects, scenes, and an alert flashing helper suitable for playbooks such as WildFire malicious-file notifications.
+description: Control LIFX smart lights via the LIFX HTTP Cloud API. Supports listing
+  lights and scenes, setting state, visual effects, alert flashes for playbooks (e.g.,
+  WildFire), and health checks.
 configuration:
 - display: LIFX API Access Token
   name: api_token
   type: 4
   required: true
-  additionalinfo: |
-    Personal access token from https://cloud.lifx.com/settings. Sent as Authorization: Bearer <token>.
+  additionalinfo: 'Personal access token from https://cloud.lifx.com/settings. Sent
+    as Authorization: Bearer <token>.
+
+    '
 - display: LIFX API Base URL
   name: url
   defaultvalue: https://api.lifx.com/v1
@@ -26,491 +29,274 @@ configuration:
   required: false
 - display: Trust any certificate (insecure)
   name: insecure
-  defaultvalue: "true"
+  defaultvalue: 'true'
   type: 8
   required: false
 script:
-  script: |
-    """
-    Cortex XSOAR / XSIAM integration for LIFX smart lights.
-
-    This version is intentionally self-contained:
-    - Does NOT import CommonServerPython
-    - Uses only `demisto`, `requests`, and `json`
-    - Returns classic entry objects (dicts) via demisto.results()
-
-    Commands implemented (must match YAML command names):
-        - test-module
-        - lifx-list-lights
-        - lifx-set-state
-        - lifx-toggle-power
-        - lifx-breathe-effect
-        - lifx-pulse-effect
-        - lifx-list-scenes
-        - lifx-activate-scene
-        - lifx-alert-flash
-        - lifx-test-connection
-    """
-
-    import json
-    import requests
-
-
-    # Basic Demisto entry constants (same as CommonServerPython usually provides)
-    ENTRY_TYPE_NOTE = 1
-    ENTRY_TYPE_ERROR = 4
-
-    FORMAT_TEXT = 'text'
-    FORMAT_JSON = 'json'
-    FORMAT_MARKDOWN = 'markdown'
-
-
-    def make_note_entry(human_readable, contents=None, context=None):
-        """
-        Build a standard note entry for the War Room.
-        """
-        entry = {
-            'Type': ENTRY_TYPE_NOTE,
-            'ContentsFormat': FORMAT_JSON if isinstance(contents, (dict, list)) else FORMAT_TEXT,
-            'Contents': contents if contents is not None else human_readable,
-            'ReadableContentsFormat': FORMAT_MARKDOWN,
-            'HumanReadable': human_readable,
-        }
-        if context is not None:
-            entry['EntryContext'] = context
-        return entry
-
-
-    def make_error_entry(message):
-        """
-        Build a standard error entry for the War Room.
-        """
-        return {
-            'Type': ENTRY_TYPE_ERROR,
-            'ContentsFormat': FORMAT_TEXT,
-            'Contents': message,
-            'ReadableContentsFormat': FORMAT_TEXT,
-            'HumanReadable': message,
-        }
-
-
-    class LifxClient(object):
-        """
-        Minimal HTTP client for the LIFX Cloud API.
-        """
-
-        def __init__(self, base_url, api_token, verify=True, proxy=False):
-            # Normalize base URL
-            self.base_url = (base_url or '').rstrip('/')
-            self.api_token = api_token
-            self.verify = bool(verify)
-
-            # Let the platform handle proxies; if you really need manual proxy
-            # configuration, extend here. For now, we just trust env/engine.
-            self.session = requests.Session()
-            self.session.headers.update({
-                'Authorization': 'Bearer {}'.format(api_token),
-                'Content-Type': 'application/json',
-            })
-
-        def _request(self, method, path, json_data=None, params=None, raw_response=False):
-            url = self.base_url + path
-            resp = self.session.request(
-                method=method,
-                url=url,
-                json=json_data,
-                params=params,
-                verify=self.verify,
-            )
-
-            if raw_response:
-                return resp
-
-            if resp.status_code >= 400:
-                # Keep it simple: raise a descriptive error
-                raise Exception('LIFX API error {}: {}'.format(resp.status_code, resp.text))
-
-            try:
-                return resp.json()
-            except Exception:
-                # If it isn't JSON, return the raw text
-                return resp.text
-
-        def list_lights(self, selector='all'):
-            return self._request('GET', '/lights/{}'.format(selector or 'all'))
-
-        def set_state(self, selector, payload):
-            return self._request('PUT', '/lights/{}/state'.format(selector), json_data=payload)
-
-        def toggle_power(self, selector, payload):
-            return self._request('POST', '/lights/{}/toggle'.format(selector), json_data=payload)
-
-        def breathe_effect(self, selector, payload):
-            return self._request('POST', '/lights/{}/effects/breathe'.format(selector), json_data=payload)
-
-        def pulse_effect(self, selector, payload):
-            return self._request('POST', '/lights/{}/effects/pulse'.format(selector), json_data=payload)
-
-        def list_scenes(self):
-            return self._request('GET', '/scenes')
-
-        def activate_scene(self, scene_uuid, payload):
-            return self._request(
-                'PUT',
-                '/scenes/scene_id:{}/activate'.format(scene_uuid),
-                json_data=payload,
-                raw_response=True,
-            )
-
-
-    # -----------------------------------------
-    # Helpers
-    # -----------------------------------------
-    def _bool_arg(val):
-        if val is None:
-            return None
-        v = str(val).strip().lower()
-        if v in ('true', 'yes', 'y', '1'):
-            return True
-        if v in ('false', 'no', 'n', '0'):
-            return False
-        return None
-
-
-    def _normalize_severity(val):
-        if val is None:
-            return None
-        v = str(val).strip().lower()
-        if v in ('1', 'low'):
-            return 'low'
-        if v in ('2', 'medium', 'moderate'):
-            return 'medium'
-        if v in ('3', 'high'):
-            return 'high'
-        if v in ('4', 'critical', 'crit'):
-            return 'critical'
-        return None
-
-
-    def _severity_defaults(severity):
-        if severity == 'low':
-            return 'green', 3
-        if severity == 'medium':
-            return 'yellow', 5
-        if severity == 'high':
-            return 'orange', 7
-        if severity == 'critical':
-            return 'red', 10
-        return 'red', 5
-
-
-    # -----------------------------------------
-    # Command implementations
-    # -----------------------------------------
-    def lifx_list_lights_command(client, args):
-        selector = args.get('selector') or 'all'
-        lights = client.list_lights(selector)
-        if not isinstance(lights, list):
-            lights = [lights]
-
-        human = 'LIFX Lights (selector="{}"):\n```json\n{}\n```'.format(
-            selector, json.dumps(lights, indent=2)
-        )
-        context = {'LIFX.Light': lights}
-        demisto.results(make_note_entry(human, contents=lights, context=context))
-
-
-    def lifx_set_state_command(client, args):
-        selector = args.get('selector') or 'all'
-        payload = {}
-
-        for field in ('power', 'color'):
-            if args.get(field):
-                payload[field] = args.get(field)
-
-        for f in ('brightness', 'duration', 'infrared'):
-            if args.get(f) is not None:
-                payload[f] = float(args[f])
-
-        fast = _bool_arg(args.get('fast'))
-        if fast is not None:
-            payload['fast'] = fast
-
-        if not payload:
-            demisto.results(make_error_entry('No state fields were provided.'))
-            return
-
-        result = client.set_state(selector, payload)
-        human = 'LIFX Set State (selector="{}")\n```json\n{}\n```'.format(
-            selector, json.dumps(result, indent=2)
-        )
-        context = {'LIFX.State': result}
-        demisto.results(make_note_entry(human, contents=result, context=context))
-
-
-    def lifx_toggle_power_command(client, args):
-        selector = args.get('selector') or 'all'
-        payload = {}
-
-        if args.get('duration'):
-            payload['duration'] = float(args['duration'])
-
-        result = client.toggle_power(selector, payload)
-        human = 'LIFX Toggle Power (selector="{}")\n```json\n{}\n```'.format(
-            selector, json.dumps(result, indent=2)
-        )
-        context = {'LIFX.Toggle': result}
-        demisto.results(make_note_entry(human, contents=result, context=context))
-
-
-    def lifx_breathe_effect_command(client, args):
-        selector = args.get('selector') or 'all'
-        if not args.get('color'):
-            demisto.results(make_error_entry('color argument is required for lifx-breathe-effect'))
-            return
-
-        payload = {'color': args.get('color')}
-
-        if args.get('from_color') is not None:
-            payload['from_color'] = args.get('from_color')
-
-        if args.get('period') is not None:
-            payload['period'] = float(args['period'])
-
-        if args.get('cycles') is not None:
-            payload['cycles'] = float(args['cycles'])
-
-        if args.get('peak') is not None:
-            payload['peak'] = float(args['peak'])
-
-        persist = _bool_arg(args.get('persist'))
-        if persist is not None:
-            payload['persist'] = persist
-
-        power_on = _bool_arg(args.get('power_on'))
-        if power_on is not None:
-            payload['power_on'] = power_on
-
-        result = client.breathe_effect(selector, payload)
-        human = 'LIFX Breathe Effect (selector="{}")\n```json\n{}\n```'.format(
-            selector, json.dumps(result, indent=2)
-        )
-        context = {'LIFX.Breathe': result}
-        demisto.results(make_note_entry(human, contents=result, context=context))
-
-
-    def lifx_pulse_effect_command(client, args):
-        selector = args.get('selector') or 'all'
-        if not args.get('color'):
-            demisto.results(make_error_entry('color argument is required for lifx-pulse-effect'))
-            return
-
-        payload = {'color': args.get('color')}
-
-        if args.get('from_color'):
-            payload['from_color'] = args.get('from_color')
-
-        if args.get('period'):
-            payload['period'] = float(args['period'])
-
-        if args.get('cycles'):
-            payload['cycles'] = float(args['cycles'])
-
-        persist = _bool_arg(args.get('persist'))
-        if persist is not None:
-            payload['persist'] = persist
-
-        power_on = _bool_arg(args.get('power_on'))
-        if power_on is not None:
-            payload['power_on'] = power_on
-
-        result = client.pulse_effect(selector, payload)
-        human = 'LIFX Pulse Effect (selector="{}")\n```json\n{}\n```'.format(
-            selector, json.dumps(result, indent=2)
-        )
-        context = {'LIFX.Pulse': result}
-        demisto.results(make_note_entry(human, contents=result, context=context))
-
-
-    def lifx_list_scenes_command(client, args):
-        scenes = client.list_scenes()
-        if not isinstance(scenes, list):
-            scenes = [scenes]
-
-        human = 'LIFX Scenes:\n```json\n{}\n```'.format(json.dumps(scenes, indent=2))
-        context = {'LIFX.Scene': scenes}
-        demisto.results(make_note_entry(human, contents=scenes, context=context))
-
-
-    def lifx_activate_scene_command(client, args):
-        scene_uuid = args.get('scene_uuid')
-        if not scene_uuid:
-            demisto.results(make_error_entry('scene_uuid argument is required for lifx-activate-scene'))
-            return
-
-        payload = {}
-        if args.get('duration'):
-            payload['duration'] = float(args['duration'])
-
-        fast = _bool_arg(args.get('fast'))
-        if fast is not None:
-            payload['fast'] = fast
-
-        resp = client.activate_scene(scene_uuid, payload)
-        human = 'LIFX scene {} activation returned HTTP {}.'.format(scene_uuid, resp.status_code)
-        context = {'LIFX.SceneActivation': {'status': resp.status_code}}
-        demisto.results(make_note_entry(human, contents={'status': resp.status_code}, context=context))
-
-
-    def lifx_alert_flash_command(client, args):
-        selector = args.get('selector') or 'all'
-
-        severity_raw = args.get('severity')
-        severity = _normalize_severity(severity_raw)
-
-        color_arg = args.get('color')
-        cycles_arg = args.get('cycles')
-
-        if severity and not color_arg:
-            default_color, default_cycles = _severity_defaults(severity)
-        else:
-            default_color, default_cycles = 'red', 5
-
-        color = color_arg or default_color
-        cycles = float(cycles_arg) if cycles_arg else float(default_cycles)
-        period = float(args.get('period') or 0.7)
-
-        power_on = _bool_arg(args.get('power_on'))
-        if power_on is None:
-            power_on = True
-
-        persist = _bool_arg(args.get('persist'))
-        if persist is None:
-            persist = False
-
-        payload = {
-            'color': color,
-            'cycles': cycles,
-            'period': period,
-            'power_on': power_on,
-            'persist': persist,
-        }
-
-        result = client.pulse_effect(selector, payload)
-        human = (
-            "LIFX alert flash executed for selector='{selector}', "
-            "severity='{severity}', color='{color}', cycles={cycles}, period={period}."
-        ).format(
-            selector=selector,
-            severity=severity_raw,
-            color=color,
-            cycles=cycles,
-            period=period,
-        )
-        context = {'LIFX.AlertFlash': result}
-        demisto.results(make_note_entry(human, contents=result, context=context))
-
-
-    def lifx_test_connection_command(client, args):
-        selector = args.get('selector') or 'all'
-
-        diag = {
-            'BaseURL': client.base_url,
-            'SelectorTested': selector,
-            'VerifySSL': client.verify,
-        }
-
-        try:
-            lights = client.list_lights(selector)
-            if not isinstance(lights, list):
-                lights = [lights]
-
-            diag['Status'] = 'success'
-            diag['LightsReturned'] = len(lights)
-            diag['Error'] = ''
-        except Exception as e:
-            lights = []
-            diag['Status'] = 'failed'
-            diag['LightsReturned'] = 0
-            diag['Error'] = str(e)
-
-        human = 'LIFX Connection Test:\n```json\n{}\n```'.format(json.dumps(diag, indent=2))
-        context = {
-            'LIFX.ConnectionTest': {
-                'Info': diag,
-                'Lights': lights,
-            }
-        }
-        demisto.results(make_note_entry(human, contents=context['LIFX.ConnectionTest'], context=context))
-
-
-    def test_module(client):
-        """
-        Called by the Test button.
-        """
-        # Just do a small call and fail loudly if it breaks.
-        client.list_lights('all')
-        demisto.results('ok')
-
-
-    def main():
-        params = demisto.params() or {}
-        base_url = params.get('url')
-        api_token = params.get('api_token')
-        insecure = params.get('insecure', False)
-
-        client = LifxClient(
-            base_url=base_url,
-            api_token=api_token,
-            verify=not insecure,
-            proxy=params.get('proxy', False),
-        )
-
-        cmd = demisto.command()
-        args = demisto.args()
-
-        try:
-            if cmd == 'test-module':
-                test_module(client)
-            elif cmd == 'lifx-list-lights':
-                lifx_list_lights_command(client, args)
-            elif cmd == 'lifx-set-state':
-                lifx_set_state_command(client, args)
-            elif cmd == 'lifx-toggle-power':
-                lifx_toggle_power_command(client, args)
-            elif cmd == 'lifx-breathe-effect':
-                lifx_breathe_effect_command(client, args)
-            elif cmd == 'lifx-pulse-effect':
-                lifx_pulse_effect_command(client, args)
-            elif cmd == 'lifx-list-scenes':
-                lifx_list_scenes_command(client, args)
-            elif cmd == 'lifx-activate-scene':
-                lifx_activate_scene_command(client, args)
-            elif cmd == 'lifx-alert-flash':
-                lifx_alert_flash_command(client, args)
-            elif cmd == 'lifx-test-connection':
-                lifx_test_connection_command(client, args)
-            else:
-                demisto.results(make_error_entry('Command {} is not implemented.'.format(cmd)))
-        except Exception as e:
-            # Last-resort error return
-            demisto.results(make_error_entry('Failed to execute {}. Error: {}'.format(cmd, e)))
-
-
-    if __name__ in ('__main__', 'builtin', 'builtins'):
-        main()
+  script: "import json\nimport requests\nimport datetime\nimport time\n\nENTRY_TYPE_NOTE\
+    \ = 1\nENTRY_TYPE_ERROR = 4\n\nFORMAT_TEXT = 'text'\nFORMAT_JSON = 'json'\nFORMAT_MARKDOWN\
+    \ = 'markdown'\n\n\ndef make_note_entry(human_readable, contents=None, context=None):\n\
+    \    entry = {\n        'Type': ENTRY_TYPE_NOTE,\n        'ContentsFormat': FORMAT_JSON\
+    \ if isinstance(contents, (dict, list)) else FORMAT_TEXT,\n        'Contents':\
+    \ contents if contents is not None else human_readable,\n        'ReadableContentsFormat':\
+    \ FORMAT_MARKDOWN,\n        'HumanReadable': human_readable,\n    }\n    if context:\n\
+    \        entry['EntryContext'] = context\n    return entry\n\n\ndef make_error_entry(message):\n\
+    \    return {\n        'Type': ENTRY_TYPE_ERROR,\n        'ContentsFormat': FORMAT_TEXT,\n\
+    \        'Contents': message,\n        'ReadableContentsFormat': FORMAT_TEXT,\n\
+    \        'HumanReadable': message,\n    }\n\n\nclass LifxClient:\n    def __init__(self,\
+    \ base_url, api_token, verify=True, proxy=False):\n        self.base_url = (base_url\
+    \ or \"\").rstrip(\"/\")\n        self.api_token = api_token\n        self.verify\
+    \ = bool(verify)\n\n        self.session = requests.Session()\n        self.session.headers.update({\n\
+    \            \"Authorization\": f\"Bearer {api_token}\",\n            \"Content-Type\"\
+    : \"application/json\",\n        })\n\n    def _request(self, method, path, json_data=None,\
+    \ params=None, raw_response=False):\n        url = self.base_url + path\n    \
+    \    resp = self.session.request(\n            method=method,\n            url=url,\n\
+    \            json=json_data,\n            params=params,\n            verify=self.verify,\n\
+    \        )\n        if raw_response:\n            return resp\n        if resp.status_code\
+    \ >= 400:\n            raise Exception(f\"LIFX API error {resp.status_code}: {resp.text}\"\
+    )\n        try:\n            return resp.json()\n        except Exception:\n \
+    \           return resp.text\n\n    def list_lights(self, selector='all'):\n \
+    \       return self._request(\"GET\", f\"/lights/{selector}\")\n\n    def set_state(self,\
+    \ selector, payload):\n        return self._request(\"PUT\", f\"/lights/{selector}/state\"\
+    , json_data=payload)\n\n    def toggle_power(self, selector, payload):\n     \
+    \   return self._request(\"POST\", f\"/lights/{selector}/toggle\", json_data=payload)\n\
+    \n    def breathe_effect(self, selector, payload):\n        return self._request(\"\
+    POST\", f\"/lights/{selector}/effects/breathe\", json_data=payload)\n\n    def\
+    \ pulse_effect(self, selector, payload):\n        return self._request(\"POST\"\
+    , f\"/lights/{selector}/effects/pulse\", json_data=payload)\n\n    def list_scenes(self):\n\
+    \        return self._request(\"GET\", \"/scenes\")\n\n    def activate_scene(self,\
+    \ scene_uuid, payload):\n        return self._request(\n            \"PUT\",\n\
+    \            f\"/scenes/scene_id:{scene_uuid}/activate\",\n            json_data=payload,\n\
+    \            raw_response=True,\n        )\n\n    def get_with_headers(self, path):\n\
+    \        resp = self._request(\"GET\", path, raw_response=True)\n        try:\n\
+    \            data = resp.json()\n        except Exception:\n            data =\
+    \ resp.text\n        return data, resp.headers, resp.status_code\n\n\ndef _bool_arg(val):\n\
+    \    if val is None:\n        return None\n    v = str(val).lower().strip()\n\
+    \    if v in (\"true\", \"yes\", \"y\", \"1\"):\n        return True\n    if v\
+    \ in (\"false\", \"no\", \"n\", \"0\"):\n        return False\n    return None\n\
+    \n\ndef _normalize_severity(val):\n    if val is None:\n        return None\n\
+    \    v = str(val).lower().strip()\n    mapping = {\n        \"1\": \"low\", \"\
+    low\": \"low\",\n        \"2\": \"medium\", \"medium\": \"medium\", \"moderate\"\
+    : \"medium\",\n        \"3\": \"high\", \"high\": \"high\",\n        \"4\": \"\
+    critical\", \"critical\": \"critical\", \"crit\": \"critical\"\n    }\n    return\
+    \ mapping.get(v)\n\n\ndef _severity_defaults(sev):\n    return {\n        \"low\"\
+    : (\"green\", 3),\n        \"medium\": (\"yellow\", 5),\n        \"high\": (\"\
+    orange\", 7),\n        \"critical\": (\"red\", 10),\n    }.get(sev, (\"red\",\
+    \ 5))\n\n\ndef _fmt_ts_relative(ts):\n    if ts is None or ts == \"\":\n     \
+    \   return \"-\"\n    try:\n        ts_int = int(ts)\n        dt = datetime.datetime.fromtimestamp(ts_int)\n\
+    \        now = datetime.datetime.now()\n        delta = now - dt\n        abs_str\
+    \ = dt.strftime(\"%Y-%m-%d %H:%M:%S\")\n\n        seconds = int(delta.total_seconds())\n\
+    \        if seconds < 0:\n            return abs_str\n\n        days = seconds\
+    \ // 86400\n        if days >= 365:\n            years = days // 365\n       \
+    \     rel = f\"{years} year{'s' if years != 1 else ''}\"\n        elif days >=\
+    \ 30:\n            months = days // 30\n            rel = f\"{months} month{'s'\
+    \ if months != 1 else ''}\"\n        elif days >= 1:\n            rel = f\"{days}\
+    \ day{'s' if days != 1 else ''}\"\n        else:\n            hours = seconds\
+    \ // 3600\n            if hours >= 1:\n                rel = f\"{hours} hour{'s'\
+    \ if hours != 1 else ''}\"\n            else:\n                minutes = seconds\
+    \ // 60\n                if minutes >= 1:\n                    rel = f\"{minutes}\
+    \ minute{'s' if minutes != 1 else ''}\"\n                else:\n             \
+    \       rel = f\"{seconds} second{'s' if seconds != 1 else ''}\"\n\n        return\
+    \ f\"{abs_str} ({rel} ago)\"\n    except Exception:\n        return str(ts)\n\n\
+    \ndef lifx_list_lights_command(client, args):\n    selector = args.get(\"selector\"\
+    ) or \"all\"\n    verbose = _bool_arg(args.get(\"verbose\"))\n\n    lights = client.list_lights(selector)\n\
+    \    if not isinstance(lights, list):\n        lights = [lights]\n\n    md = []\n\
+    \    md.append(f\"## LIFX Lights (selector=\\\"{selector}\\\")\\n\\n\")\n    md.append(\n\
+    \        \"| ID | Label | Power | Connected | Group | Location | Color | Brightness\
+    \ |\\n\"\n        \"|----|-------|-------|-----------|-------|----------|-------|------------|\\\
+    n\"\n    )\n\n    for l in lights:\n        lid = l.get(\"id\", \"\")\n      \
+    \  label = l.get(\"label\", \"\")\n        power = l.get(\"power\", \"\")\n  \
+    \      connected = l.get(\"connected\", \"\")\n        group = (l.get(\"group\"\
+    ) or {}).get(\"name\", \"\")\n        location = (l.get(\"location\") or {}).get(\"\
+    name\", \"\")\n        color = l.get(\"color\") or {}\n        if isinstance(color,\
+    \ dict):\n            color_str = f\"h:{color.get('hue','')}, s:{color.get('saturation','')},\
+    \ k:{color.get('kelvin','')}\"\n        else:\n            color_str = str(color)\n\
+    \        brightness = l.get(\"brightness\", \"\")\n\n        md.append(\n    \
+    \        f\"| {lid} | {label} | {power} | {connected} | {group} | {location} |\
+    \ {color_str} | {brightness} |\\n\"\n        )\n\n    if verbose:\n        md.append(\"\
+    \\n### Raw JSON\\n```json\\n\")\n        md.append(json.dumps(lights, indent=2))\n\
+    \        md.append(\"\\n```\\n\")\n\n    demisto.results(make_note_entry(\"\"\
+    .join(md), lights, {\"LIFX.Light\": lights}))\n\n\ndef lifx_set_state_command(client,\
+    \ args):\n    selector = args.get(\"selector\") or \"all\"\n    payload = {}\n\
+    \n    for f in (\"power\", \"color\"):\n        if args.get(f):\n            payload[f]\
+    \ = args.get(f)\n\n    for f in (\"brightness\", \"duration\", \"infrared\"):\n\
+    \        if args.get(f) is not None:\n            payload[f] = float(args[f])\n\
+    \n    fast = _bool_arg(args.get(\"fast\"))\n    if fast is not None:\n       \
+    \ payload[\"fast\"] = fast\n\n    if not payload:\n        demisto.results(make_error_entry(\"\
+    No state fields were provided.\"))\n        return\n\n    result = client.set_state(selector,\
+    \ payload)\n    md = []\n    md.append(f\"## LIFX Set State (selector=\\\"{selector}\\\
+    \")\\n\\n\")\n    md.append(\"```json\\n\")\n    md.append(json.dumps(result,\
+    \ indent=2))\n    md.append(\"\\n```\\n\")\n\n    demisto.results(make_note_entry(\"\
+    \".join(md), result, {\"LIFX.State\": result}))\n\n\ndef lifx_toggle_power_command(client,\
+    \ args):\n    selector = args.get(\"selector\") or \"all\"\n    payload = {}\n\
+    \n    if args.get(\"duration\"):\n        payload[\"duration\"] = float(args[\"\
+    duration\"])\n\n    result = client.toggle_power(selector, payload)\n\n    md\
+    \ = []\n    md.append(f\"## LIFX Toggle Power (selector=\\\"{selector}\\\")\\\
+    n\\n\")\n    md.append(\"```json\\n\")\n    md.append(json.dumps(result, indent=2))\n\
+    \    md.append(\"\\n```\\n\")\n\n    demisto.results(make_note_entry(\"\".join(md),\
+    \ result, {\"LIFX.Toggle\": result}))\n\n\ndef lifx_breathe_effect_command(client,\
+    \ args):\n    selector = args.get(\"selector\") or \"all\"\n    if not args.get(\"\
+    color\"):\n        demisto.results(make_error_entry(\"color argument is required\
+    \ for lifx-breathe-effect\"))\n        return\n\n    payload = {\"color\": args.get(\"\
+    color\")}\n\n    if args.get(\"from_color\"):\n        payload[\"from_color\"\
+    ] = args.get(\"from_color\")\n\n    for f in (\"period\", \"cycles\", \"peak\"\
+    ):\n        if args.get(f):\n            payload[f] = float(args[f])\n\n    persist\
+    \ = _bool_arg(args.get(\"persist\"))\n    if persist is not None:\n        payload[\"\
+    persist\"] = persist\n\n    power_on = _bool_arg(args.get(\"power_on\"))\n   \
+    \ if power_on is not None:\n        payload[\"power_on\"] = power_on\n\n    result\
+    \ = client.breathe_effect(selector, payload)\n\n    md = []\n    md.append(f\"\
+    ## LIFX Breathe Effect (selector=\\\"{selector}\\\")\\n\\n\")\n    md.append(\"\
+    ```json\\n\")\n    md.append(json.dumps(result, indent=2))\n    md.append(\"\\\
+    n```\\n\")\n\n    demisto.results(make_note_entry(\"\".join(md), result, {\"LIFX.Breathe\"\
+    : result}))\n\n\ndef lifx_pulse_effect_command(client, args):\n    selector =\
+    \ args.get(\"selector\") or \"all\"\n    if not args.get(\"color\"):\n       \
+    \ demisto.results(make_error_entry(\"color argument is required for lifx-pulse-effect\"\
+    ))\n        return\n\n    payload = {\"color\": args.get(\"color\")}\n\n    if\
+    \ args.get(\"from_color\"):\n        payload[\"from_color\"] = args.get(\"from_color\"\
+    )\n\n    for f in (\"period\", \"cycles\"):\n        if args.get(f):\n       \
+    \     payload[f] = float(args[f])\n\n    persist = _bool_arg(args.get(\"persist\"\
+    ))\n    if persist is not None:\n        payload[\"persist\"] = persist\n\n  \
+    \  power_on = _bool_arg(args.get(\"power_on\"))\n    if power_on is not None:\n\
+    \        payload[\"power_on\"] = power_on\n\n    result = client.pulse_effect(selector,\
+    \ payload)\n\n    md = []\n    md.append(f\"## LIFX Pulse Effect (selector=\\\"\
+    {selector}\\\")\\n\\n\")\n    md.append(\"```json\\n\")\n    md.append(json.dumps(result,\
+    \ indent=2))\n    md.append(\"\\n```\\n\")\n\n    demisto.results(make_note_entry(\"\
+    \".join(md), result, {\"LIFX.Pulse\": result}))\n\n\ndef lifx_list_scenes_command(client,\
+    \ args):\n    verbose = _bool_arg(args.get(\"verbose\"))\n\n    scenes = client.list_scenes()\n\
+    \    if not isinstance(scenes, list):\n        scenes = [scenes]\n\n    md = []\n\
+    \    md.append(\"## LIFX Scenes\\n\\n\")\n    md.append(\n        \"| Name | UUID\
+    \ | Lights | Created At | Updated At |\\n\"\n        \"|------|------|--------|------------|------------|\\\
+    n\"\n    )\n\n    for s in scenes:\n        name = s.get(\"name\", \"-\")\n  \
+    \      uuid = s.get(\"uuid\", \"-\")\n        states = s.get(\"states\") or s.get(\"\
+    lights\") or []\n\n        created = _fmt_ts_relative(s.get(\"created_at\"))\n\
+    \        updated = _fmt_ts_relative(s.get(\"updated_at\"))\n\n        md.append(\n\
+    \            f\"| {name} | {uuid} | {len(states)} | {created} | {updated} |\\\
+    n\"\n        )\n\n    for idx, s in enumerate(scenes, start=1):\n        name\
+    \ = s.get(\"name\", \"-\")\n        uuid = s.get(\"uuid\", \"-\")\n\n        md.append(\"\
+    \\n---\\n\")\n        md.append(f\"### Scene {idx}: `{name}`\\n\\n\")\n      \
+    \  md.append(f\"**UUID:** `{uuid}`\\n\\n\")\n\n        states = s.get(\"states\"\
+    ) or s.get(\"lights\") or []\n        if states:\n            md.append(\n   \
+    \             \"| Index | Selector | Brightness | Hue | Saturation | Kelvin |\\\
+    n\"\n                \"|------:|----------|-----------:|----:|-----------:|-------:|\\\
+    n\"\n            )\n            for i, st in enumerate(states, start=1):\n   \
+    \             state_obj = st.get(\"state\", st)\n\n                selector =\
+    \ (\n                    st.get(\"selector\")\n                    or state_obj.get(\"\
+    selector\")\n                    or state_obj.get(\"label\")\n               \
+    \     or state_obj.get(\"serial_number\")\n                    or \"-\"\n    \
+    \            )\n\n                brightness = state_obj.get(\"brightness\", \"\
+    \")\n                color = state_obj.get(\"color\", {}) or {}\n\n          \
+    \      hue = color.get(\"hue\", state_obj.get(\"hue\", \"\"))\n              \
+    \  sat = color.get(\"saturation\", state_obj.get(\"saturation\", \"\"))\n    \
+    \            kelvin = color.get(\"kelvin\", state_obj.get(\"kelvin\", \"\"))\n\
+    \n                md.append(\n                    f\"| {i} | {selector} | {brightness}\
+    \ | {hue} | {sat} | {kelvin} |\\n\"\n                )\n        else:\n      \
+    \      md.append(\"_No lights found in this scene._\\n\")\n\n    if verbose:\n\
+    \        md.append(\"\\n### Raw JSON\\n```json\\n\")\n        md.append(json.dumps(scenes,\
+    \ indent=2))\n        md.append(\"\\n```\\n\")\n\n    demisto.results(make_note_entry(\"\
+    \".join(md), scenes, {\"LIFX.Scene\": scenes}))\n\n\ndef lifx_activate_scene_command(client,\
+    \ args):\n    uuid = args.get(\"scene_uuid\")\n    if not uuid:\n        demisto.results(make_error_entry(\"\
+    scene_uuid argument is required\"))\n        return\n\n    payload = {}\n    if\
+    \ args.get(\"duration\"):\n        payload[\"duration\"] = float(args[\"duration\"\
+    ])\n\n    fast = _bool_arg(args.get(\"fast\"))\n    if fast is not None:\n   \
+    \     payload[\"fast\"] = fast\n\n    resp = client.activate_scene(uuid, payload)\n\
+    \    result = {\"status\": resp.status_code}\n\n    md = []\n    md.append(\"\
+    ## LIFX Activate Scene\\n\\n\")\n    md.append(f\"Scene UUID: `{uuid}`  \\n\"\
+    )\n    md.append(f\"HTTP Status: `{resp.status_code}`\\n\")\n\n    demisto.results(make_note_entry(\"\
+    \".join(md), result, {\"LIFX.SceneActivation\": result}))\n\n\ndef lifx_alert_flash_command(client,\
+    \ args):\n    selector = args.get(\"selector\") or \"all\"\n    severity_raw =\
+    \ args.get(\"severity\")\n    severity = _normalize_severity(severity_raw)\n\n\
+    \    if severity:\n        default_color, default_cycles = _severity_defaults(severity)\n\
+    \    else:\n        default_color, default_cycles = (\"red\", 5)\n\n    color\
+    \ = args.get(\"color\") or default_color\n    cycles = float(args.get(\"cycles\"\
+    ) or default_cycles)\n    period = float(args.get(\"period\") or 0.7)\n\n    persist\
+    \ = _bool_arg(args.get(\"persist\"))\n    power_on = _bool_arg(args.get(\"power_on\"\
+    ))\n\n    payload = {\n        \"color\": color,\n        \"cycles\": cycles,\n\
+    \        \"period\": period,\n        \"persist\": False if persist is None else\
+    \ persist,\n        \"power_on\": True if power_on is None else power_on,\n  \
+    \  }\n\n    result = client.pulse_effect(selector, payload)\n\n    md = []\n \
+    \   md.append(\"## LIFX Alert Flash\\n\\n\")\n    md.append(f\"- Selector: `{selector}`\\\
+    n\")\n    md.append(f\"- Severity: `{severity_raw}` (normalized: `{severity}`)\\\
+    n\")\n    md.append(f\"- Color: `{color}`\\n\")\n    md.append(f\"- Cycles: `{cycles}`\\\
+    n\")\n    md.append(f\"- Period: `{period}`\\n\")\n\n    demisto.results(make_note_entry(\"\
+    \".join(md), result, {\"LIFX.AlertFlash\": result}))\n\n\ndef lifx_test_connection_command(client,\
+    \ args):\n    selector = args.get(\"selector\") or \"all\"\n\n    diag = {\n \
+    \       \"BaseURL\": client.base_url,\n        \"Selector\": selector,\n     \
+    \   \"VerifySSL\": client.verify,\n    }\n\n    start = time.time()\n    try:\n\
+    \        lights = client.list_lights(selector)\n        if not isinstance(lights,\
+    \ list):\n            lights = [lights]\n        diag[\"Status\"] = \"success\"\
+    \n        diag[\"LightsReturned\"] = len(lights)\n        diag[\"Error\"] = \"\
+    \"\n    except Exception as e:\n        lights = []\n        diag[\"Status\"]\
+    \ = \"failed\"\n        diag[\"LightsReturned\"] = 0\n        diag[\"Error\"]\
+    \ = str(e)\n\n    latency_ms = int((time.time() - start) * 1000)\n    diag[\"\
+    LatencyMS\"] = latency_ms\n\n    md = []\n    md.append(\"## LIFX Connection Test\\\
+    n\\n\")\n    md.append(\"| Field | Value |\\n\")\n    md.append(\"|-------|-------|\\\
+    n\")\n    md.append(f\"| **Base URL** | `{diag['BaseURL']}` |\\n\")\n    md.append(f\"\
+    | **Selector** | `{diag['Selector']}` |\\n\")\n    md.append(f\"| **Verify SSL**\
+    \ | `{diag['VerifySSL']}` |\\n\")\n    md.append(f\"| **Status** | `{diag['Status']}`\
+    \ |\\n\")\n    md.append(f\"| **Lights Found** | `{diag['LightsReturned']}` |\\\
+    n\")\n    md.append(f\"| **Latency (ms)** | `{diag['LatencyMS']}` |\\n\")\n  \
+    \  md.append(f\"| **Error** | `{diag['Error'] or '(none)'}` |\\n\")\n\n    context\
+    \ = {\"LIFX.ConnectionTest\": {\"Info\": diag, \"Lights\": lights}}\n    demisto.results(make_note_entry(\"\
+    \".join(md), context, context))\n\n\ndef lifx_health_check_command(client, args):\n\
+    \    start = time.time()\n    data, headers, status = client.get_with_headers(\"\
+    /lights/all\")\n    latency_ms = int((time.time() - start) * 1000)\n\n    remaining\
+    \ = headers.get(\"X-RateLimit-Remaining\") or headers.get(\"X-RateLimit-Remaining-Short\"\
+    ) or \"-\"\n    limit = headers.get(\"X-RateLimit-Limit\") or headers.get(\"X-RateLimit-Limit-Short\"\
+    ) or \"-\"\n\n    reset_raw = headers.get(\"X-RateLimit-Reset\") or \"-\"\n  \
+    \  reset = _fmt_ts_relative(reset_raw) if reset_raw not in (\"\", \"-\") else\
+    \ \"-\"\n\n    ok = 200 <= status < 400\n\n    md = []\n    md.append(\"## LIFX\
+    \ Health Check\\n\\n\")\n    md.append(\"| Field | Value |\\n\")\n    md.append(\"\
+    |-------|-------|\\n\")\n    md.append(f\"| **HTTP Status** | `{status}` |\\n\"\
+    )\n    md.append(f\"| **Latency (ms)** | `{latency_ms}` |\\n\")\n    md.append(f\"\
+    | **Rate Limit** | `{limit}` |\\n\")\n    md.append(f\"| **Rate Remaining** |\
+    \ `{remaining}` |\\n\")\n    md.append(f\"| **Rate Reset** | `{reset}` |\\n\"\
+    )\n    md.append(f\"| **OK** | `{ok}` |\\n\")\n\n    context = {\n        \"LIFX.HealthCheck\"\
+    : {\n            \"Status\": status,\n            \"LatencyMS\": latency_ms,\n\
+    \            \"RateLimit\": limit,\n            \"RateRemaining\": remaining,\n\
+    \            \"RateReset\": reset,\n            \"OK\": ok,\n        }\n    }\n\
+    \n    demisto.results(make_note_entry(\"\".join(md), context, context))\n\n\n\
+    def test_module(client):\n    client.list_lights(\"all\")\n    demisto.results(\"\
+    ok\")\n\n\ndef main():\n    params = demisto.params() or {}\n    base = params.get(\"\
+    url\")\n    token = params.get(\"api_token\")\n    insecure = params.get(\"insecure\"\
+    )\n\n    client = LifxClient(\n        base_url=base,\n        api_token=token,\n\
+    \        verify=not insecure,\n        proxy=params.get(\"proxy\"),\n    )\n\n\
+    \    cmd = demisto.command()\n    args = demisto.args()\n\n    try:\n        if\
+    \ cmd == \"test-module\":\n            test_module(client)\n        elif cmd ==\
+    \ \"lifx-list-lights\":\n            lifx_list_lights_command(client, args)\n\
+    \        elif cmd == \"lifx-set-state\":\n            lifx_set_state_command(client,\
+    \ args)\n        elif cmd == \"lifx-toggle-power\":\n            lifx_toggle_power_command(client,\
+    \ args)\n        elif cmd == \"lifx-breathe-effect\":\n            lifx_breathe_effect_command(client,\
+    \ args)\n        elif cmd == \"lifx-pulse-effect\":\n            lifx_pulse_effect_command(client,\
+    \ args)\n        elif cmd == \"lifx-list-scenes\":\n            lifx_list_scenes_command(client,\
+    \ args)\n        elif cmd == \"lifx-activate-scene\":\n            lifx_activate_scene_command(client,\
+    \ args)\n        elif cmd == \"lifx-alert-flash\":\n            lifx_alert_flash_command(client,\
+    \ args)\n        elif cmd == \"lifx-test-connection\":\n            lifx_test_connection_command(client,\
+    \ args)\n        elif cmd == \"lifx-health-check\":\n            lifx_health_check_command(client,\
+    \ args)\n        else:\n            demisto.results(make_error_entry(f\"Command\
+    \ '{cmd}' is not implemented.\"))\n    except Exception as e:\n        demisto.results(make_error_entry(f\"\
+    Failed to execute '{cmd}'. Error: {e}\"))\n\n\nif __name__ in (\"__main__\", \"\
+    builtin\", \"builtins\"):\n    main()\n"
   type: python
   commands:
   - name: lifx-list-lights
+    description: List LIFX lights using a selector (all, group, label, location).
     arguments:
     - name: selector
       description: LIFX selector (e.g. 'all', 'group:SOC', 'label:Desk Lamp'). Defaults
         to 'all'.
+    - name: verbose
+      auto: PREDEFINED
+      predefined:
+      - 'True'
+      - 'False'
+      description: If 'True', include raw JSON output in addition to the markdown
+        table.
+      defaultValue: 'False'
     outputs:
     - contextPath: LIFX.Light
       description: Detailed information about LIFX lights.
-    description: List LIFX lights.
   - name: lifx-set-state
+    description: Set state (power, color, brightness, etc.) for one or more LIFX lights.
     arguments:
     - name: selector
       description: LIFX selector. Defaults to 'all'.
@@ -527,20 +313,20 @@ script:
     - name: fast
       description: If true, use fast mode.
     outputs:
-    - contextPath: LIFX.State.results
-      description: Per-light results from the LIFX API.
-    description: Set state (power, color, brightness, etc.) for one or more LIFX lights.
+    - contextPath: LIFX.State
+      description: Per-call result object from the LIFX API.
   - name: lifx-toggle-power
+    description: Toggle power for one or more LIFX lights.
     arguments:
     - name: selector
       description: LIFX selector. Defaults to 'all'.
     - name: duration
       description: Transition duration in seconds.
     outputs:
-    - contextPath: LIFX.Toggle.results
-      description: Per-light results from the LIFX API.
-    description: Toggle power for one or more LIFX lights.
+    - contextPath: LIFX.Toggle
+      description: Per-call result object from the LIFX API.
   - name: lifx-breathe-effect
+    description: Run a 'breathe' effect on one or more lights.
     arguments:
     - name: selector
       description: LIFX selector. Defaults to 'all'.
@@ -560,10 +346,10 @@ script:
     - name: power_on
       description: Turn lights on before running the effect (true/false).
     outputs:
-    - contextPath: LIFX.Breathe.results
-      description: Per-light results from the LIFX API.
-    description: Run a 'breathe' effect on one or more lights.
+    - contextPath: LIFX.Breathe
+      description: Per-call result object from the LIFX API.
   - name: lifx-pulse-effect
+    description: Run a 'pulse' effect on one or more lights.
     arguments:
     - name: selector
       description: LIFX selector. Defaults to 'all'.
@@ -581,16 +367,24 @@ script:
     - name: power_on
       description: Turn lights on before running the effect (true/false).
     outputs:
-    - contextPath: LIFX.Pulse.results
-      description: Per-light results from the LIFX API.
-    description: Run a 'pulse' effect on one or more lights.
+    - contextPath: LIFX.Pulse
+      description: Per-call result object from the LIFX API.
   - name: lifx-list-scenes
-    arguments: []
+    description: List all LIFX scenes associated with the account.
+    arguments:
+    - name: verbose
+      auto: PREDEFINED
+      predefined:
+      - 'True'
+      - 'False'
+      description: If 'True', include raw JSON output in addition to the markdown
+        tables.
+      defaultValue: 'False'
     outputs:
     - contextPath: LIFX.Scene
       description: Scene information from the LIFX API.
-    description: List all LIFX scenes associated with the account.
   - name: lifx-activate-scene
+    description: Activate a LIFX scene by UUID.
     arguments:
     - name: scene_uuid
       required: true
@@ -602,13 +396,15 @@ script:
     outputs:
     - contextPath: LIFX.SceneActivation.status
       description: HTTP status code returned by the scene activation request.
-    description: Activate a LIFX scene by UUID.
   - name: lifx-alert-flash
+    description: "Flash lights for alert events (e.g., WildFire malicious file detections).\
+      \ \U0001F6A8"
     arguments:
     - name: selector
       description: LIFX selector (e.g. 'group:SOC'). Defaults to 'all'.
     - name: severity
-      description: Alert severity (low/medium/high/critical or 1-4).
+      description: Alert severity (low/medium/high/critical or 1-4). Controls default
+        color/cycles.
     - name: color
       description: Override color for the flash (otherwise derived from severity).
     - name: cycles
@@ -620,20 +416,53 @@ script:
     - name: persist
       description: Persist the last color at the end of the effect (default false).
     outputs:
-    - contextPath: LIFX.AlertFlash.results
-      description: Per-light results from the LIFX API.
-    description: Flash lights for alert events (e.g., WildFire malicious file detections).
+    - contextPath: LIFX.AlertFlash
+      description: Per-call result object from the LIFX API.
   - name: lifx-test-connection
+    description: Operator-facing test command to troubleshoot LIFX API connectivity.
     arguments:
     - name: selector
       description: LIFX selector to test with (default 'all').
     outputs:
     - contextPath: LIFX.ConnectionTest.Info
-      description: Diagnostic information about the test (base URL, SSL verify, proxy,
-        status, error).
+      description: Diagnostic information about the test (base URL, SSL verify, status,
+        error, latency).
     - contextPath: LIFX.ConnectionTest.Lights
       description: Lights returned by the test call, if any.
-    description: Operator-facing test command to troubleshoot LIFX API connectivity.
+  - name: lifx-health-check
+    description: Check LIFX API health and rate limits, including human-readable reset
+      time.
+    arguments: []
+    outputs:
+    - contextPath: LIFX.HealthCheck.Status
+      description: HTTP status code returned by the health check request.
+    - contextPath: LIFX.HealthCheck.LatencyMS
+      description: Health check latency in milliseconds.
+    - contextPath: LIFX.HealthCheck.RateLimit
+      description: Total rate limit, if exposed by the LIFX API.
+    - contextPath: LIFX.HealthCheck.RateRemaining
+      description: Remaining requests in the current rate limit window.
+    - contextPath: LIFX.HealthCheck.RateReset
+      description: Human-readable timestamp for when the rate limit resets.
+    - contextPath: LIFX.HealthCheck.OK
+      description: Boolean flag indicating if the health check was successful (True)
+        or not (False).
   dockerimage: demisto/python3:3.12.8.3296088
   runonce: true
   subtype: python3
+detaileddescription: "## Overview\n\nThe **LIFX** integration for Cortex XSOAR / XSIAM\
+  \ lets you control LIFX smart lights from playbooks and manual commands.\n\nTypical\
+  \ use cases:\n- Flash lights when WildFire / XDR / XSIAM detects malicious activity.\n\
+  - Activate scenes for SOC shift changes (e.g., \"Workday\", \"Evening\").\n- Run\
+  \ health and connectivity checks against the LIFX Cloud API.\n\n## Obtaining a LIFX\
+  \ API Token\n\n1. Log in to the LIFX Cloud: https://cloud.lifx.com\n2. Open **Settings\
+  \ \u2192 Personal access tokens** (https://cloud.lifx.com/settings).\n3. Click **Generate\
+  \ New Token** and give it a descriptive name (e.g. `XSOAR-LIFX-Integration`).\n\
+  4. Copy the token and store it securely.\n5. Paste it into the **LIFX API Access\
+  \ Token** field in the integration instance.\n\nThe token is used as:\n\n`Authorization:\
+  \ Bearer <token>`\n\n## Selector Examples\n\nSome common LIFX selectors:\n\n- `all`\
+  \ \u2013 all lights in the account\n- `group:OverCabinet` \u2013 all lights in the\
+  \ \"OverCabinet\" group\n- `label:Desk Lamp` \u2013 a light labeled \"Desk Lamp\"\
+  \n- `location:Office` \u2013 all lights in the \"Office\" location\n\nSelectors\
+  \ are supported by commands such as:\n- `lifx-list-lights`\n- `lifx-set-state`\n\
+  - `lifx-toggle-power`\n- `lifx-breathe-effect`\n- `lifx-pulse-effect`\n- `lifx-alert-flash`\n"
