@@ -39,7 +39,7 @@ demisto/python3:3.12.8.3296088
 ## 🛠 Installation
 
 ### 1. Upload Integration
-1. Go to **Settings → Integrations
+1. Go to **Settings → Integrations**
 2. Click the **Upload Integration** button
 3. Select `LIFX.yml`
 4. Add a new instance
