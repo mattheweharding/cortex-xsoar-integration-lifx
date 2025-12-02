@@ -1,0 +1,17 @@
+id: wildfire_lifx_flash
+version: -1
+name: WildFire Malicious Verdict - Flash LIFX Lights
+tasks:
+  '1':
+    id: '1'
+    taskid: flash1
+    type: regular
+    task:
+      id: flash1
+      scriptName: LIFX
+      scriptarguments:
+        selector:
+          simple: "group:OverCabinet"
+        severity:
+          simple: "${incident.severity}"
+    nexttasks: {}

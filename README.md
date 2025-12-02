@@ -1,3 +1,6 @@
 # LIFX Integration for Cortex XSOAR / XSIAM
+Smart Lighting Control & SOC Alert Visualization
 
-Placeholder README.
+![Banner](assets/banner.svg)
+
+...
